@@ -1,4 +1,4 @@
-package exam_02_BookSearch_DI;
+package dailyWork1;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

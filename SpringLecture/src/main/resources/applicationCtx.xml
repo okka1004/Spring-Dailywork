@@ -4,9 +4,9 @@
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
 
-<bean id="dao" class="exam_02_BookSearch_DI.BookDAO" />
+<bean id="dao" class="dailyWork1.BookDAO" />
 
-<bean id="BookService" class="exam_02_BookSearch_DI.BookService">
+<bean id="BookService" class="dailyWork1.BookService">
 	<constructor-arg>
 		<ref bean="dao" />
 	</constructor-arg>
